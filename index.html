@@ -3,29 +3,112 @@
 
 <head>
     <style>
-        .header {
-            background-color: #A14B6F;
+        .header{
+            background-color: #c2386b;
             padding: 20px;
+
+        }
+
+        p{
+            display: inline-block;
+            margin: 20px;
+            color: pink
+        }
+
+        .image-text{
+            margin: 20px;
+        }
+        
+        .bodytext{
+            color: purple;
         }
 
         body {
+            background-color: #6adf;
             height: 100vh;
             padding: 0px;
             margin: 0px;
         }
         .name{
             margin: 0px;
+            padding: 20px;
+            
         }
+
+        .pinball{
+           margin: 0px;
+        }
+
+        .image-container{
+            display: flex;
+            align-items: center;
+            margin-left: 20px;
+        }
+
+        .image-container img{
+            margin-right: 100px;
+        }
+
+        .body {
+            display: flex;
+            
+            
+        }
+
+        .body img {
+            margin-right: 100px;
+        }
+        
     </style>
 </head>
 <body>
     <div class="header">
         
-        <h1 class="name"> <font color="53BEE8"> Cade Gordon </font> </h1>
-        <p> words and stuff</p>
+        <h1 class="name"> <font color="E0ce7a"> Cade Gordon </font> </h1>
+
+        <h2 class="name"> Video Game Programmer </h2>
+
+        <p id="Resume"> 
+           <a style="text-decoration: none; color: blueviolet;" rel="Click here" href=" https://resume.creddle.io/resume/iqp0m3nxyct" target="_blank" onmouseover="this.style.color='red'" onmouseout="this.style.color='blueviolet'"> <font size ="+3">  Resume </a>  
+        </p>
+
+        <p id="GitHub"> 
+            <a style="text-decoration: none; color: blueviolet;" rel="Click here"  href="https://github.com/CadeGordon" target="_blank" onmouseover="this.style.color='red'" onmouseout="this.style.color='blueviolet'">  GitHub </a>
+        </p>
+
+        <p id="linkedin">
+            <a style="text-decoration: none; color: blueviolet;" rel="Click here" href="https://www.linkedin.com/in/cade-gordon-16a278231/" target="_blank" onmouseover="this.style.color='red'" onmouseout="this.style.color='blueviolet'">  Linked In </a> 
+        </font>
+        </p>
     </div>
-<p>I'm hosted with GitHub Pages.</p>
-<!-- <body style="background-color:#A14B6F;"></body> -->
+
+    <font size = "+3"> 
+    <div class="body"> 
+         <p>PROJECTS</p>
+    </div>
+    
+    <p> <a style="text-decoration: none; color: blueviolet;" rel="Click here" href="https://skylineshredder.itch.io/skyline-shredder" target="_blank" onmouseover="this.style.color='red'" onmouseout="this.style.color='blueviolet'"> Skyline Shredder </a> </p>
+    <div style = "position:relative; right: -700px; top: -55px;"> <a style="text-decoration: none; color: blueviolet;" rel="Click here" href="https://bananapeeljerry.itch.io/hellheim-pinball" target="_blank"onmouseover="this.style.color='red'" onmouseout="this.style.color='blueviolet'"> <p class="pinball"> Hellheim Pinball </a> </p> </div> 
+
+    <div class="body"> 
+      <a href="https://skylineshredder.itch.io/skyline-shredder" target="_blank">  <img src="https://img.itch.zone/aW1nLzEyNDE0NzExLnBuZw==/original/M7%2BBDh.png" width="600" height="300"> </a> 
+      <a href="https://bananapeeljerry.itch.io/hellheim-pinball" target="_blank">  <img src="https://img.itch.zone/aW1nLzkyMTk1NjcucG5n/original/NnUkfV.png" width="600" height="300"> </a>
+    </div>
+
+    <p class="name">Skyline Shredder is a third-person  platformer <br> mixed with parkour, grinding, and grappling <br> 
+        created in UE4 as a student project over a <br> 6 month production cycle
+        (My contributions <br> to this project, I programmed the swinging and UI).
+    </p>
+
+   <div style="position: relative; right: -680px; top: -225px;"> <p>HellHeim Pinball is a cabinet arcade style game<br> 
+    created in Unity as a student project over a 1 month <br> production cycle (My contributions to this project,<br> 
+    I handled all the Gameplay programming)</p> </div> 
+
+    
+</font>
+ 
+    
+  
 
 </body>
 </html>
