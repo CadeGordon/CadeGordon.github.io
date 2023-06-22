@@ -7,6 +7,8 @@
             background-color: #233f57;
             padding: 20px;
             text-align: center;
+            font-size: 25px;
+            color: #9cdaf1;
             
             
         }
@@ -15,7 +17,7 @@
             display: inline-block;
             margin: 20px;
             color: #9cdaf1;
-            margin-left: 100px;
+            text-align: center;
             
         }
 
@@ -36,8 +38,8 @@
             
         }
         .name{
-            margin: 0px;
-            padding: 20px;
+            margin-top: 20px;
+            text-align: center;
             
         }
 
@@ -47,28 +49,47 @@
 
         .image-container{
             display: flex;
-            align-items: center;
-            margin-left: 20px;
+            align-items: flex-start;
+            justify-content: space-around;
         }
 
-        .image-container img{
-            margin-right: 100px;
+        .project-image{
+            text-align: center;
+            margin: 10px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .project-name{
+            margin-top: 0px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .project-description{
+            text-align: center;
+            margin-top: 10px;
+            font-size: 3;
         }
 
         .body {
-            display: flex;
             text-align: center;
-            margin-left: 300px;
-            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            margin-left: 0;
             
         }
 
         .body img {
-            margin-right: 100px;
+            margin-right: 20px;
         }
         .move-text{
             text-align: center;
-            margin-left: 600px;
         }
         
     </style>
@@ -76,9 +97,9 @@
 <body>
     <div class="header">
         
-        <h1 class="name"> <font color="f8f9f8"> Cade Gordon </font> </h1>
+        <h1 class="name">  Cade Gordon  </h1>
 
-        <h2 class="name"> <font color="f8f9f8"> Video Game Programmer </font> </h2>
+        <h2 class="name">  Video Game Programmer </h2>
 
         <p id="Resume"> 
            <a style="text-decoration: none; color: #f8f9f8;" rel="Click here" href=" https://resume.creddle.io/resume/iqp0m3nxyct" target="_blank" onmouseover="this.style.color='#777c93'" onmouseout="this.style.color='#f8f9f8'"> <font size ="+3">  Resume </a>  
@@ -91,7 +112,10 @@
         <p id="linkedin">
             <a style="text-decoration: none; color: #f8f9f8;" rel="Click here" href="https://www.linkedin.com/in/cade-gordon-16a278231/" target="_blank" onmouseover="this.style.color='#777c93'" onmouseout="this.style.color='#f8f9f8'">  LinkedIn </a> 
 
-     <a style="text-decoration: none; color: #f8f9f8;"  a href="https://linktr.ee/cadegordon" onmouseover="this.style.color='#777c93'" onmouseout="this.style.color='#f8f9f8'"> <p id="Contact Me">Linktree</p>  </a>    
+
+     <p id="Personal">
+        <a style="text-decoration: none; color: #f8f9f8;" rel="Click here" href="/contact.html" target="_blank" onmouseover="this.style.color='#777c93'" onmouseout="this.style.color='#f8f9f8'">  Personal Projects </a> 
+
 
         </font>
         </p>
@@ -99,25 +123,30 @@
 
     <font size = "+3"> 
     <div class="body"> 
-  <p class="move-text">PROJECTS</p>  
+  <p class="p">PROJECTS</p>  
     </div>
     
-    <p> <div style="position: relative; left: 500px;"> <a style="text-decoration: none; color: #f8f9f8;" rel="Click here" href="https://skylineshredder.itch.io/skyline-shredder" target="_blank" onmouseover="this.style.color='#233f57'" onmouseout="this.style.color='#f8f9f8'"> Skyline Shredder </a> </p> </div>
-    <div style = "position:relative; left: 1200px; top: -55px;"> <a style="text-decoration: none; color: #f8f9f8;" rel="Click here" href="https://bananapeeljerry.itch.io/hellheim-pinball" target="_blank"onmouseover="this.style.color='#233f57'" onmouseout="this.style.color='#f8f9f8'"> <p class="pinball"> Hellheim Pinball </a> </p> </div> 
-
-    <div class="body"> 
-      <a href="https://skylineshredder.itch.io/skyline-shredder" target="_blank">  <img src="https://img.itch.zone/aW1nLzEyNDE0NzExLnBuZw==/original/M7%2BBDh.png" width="600" height="300"> </a> 
-      <a href="https://bananapeeljerry.itch.io/hellheim-pinball" target="_blank">  <img src="https://img.itch.zone/aW1nLzkyMTk1NjcucG5n/original/NnUkfV.png" width="600" height="300"> </a>
-    </div>
-
-    <div style="position: relative; left: 300px;"> <p class="name">Skyline Shredder is a third-person  platformer <br> mixed with parkour, grinding, and grappling <br> 
-        created in UE4 as a student project over a <br> 6 month production cycle
-        (My contributions <br> to this project, I programmed the swinging and UI).
-    </p> </div>
-
-   <div style="position: relative; left: 900px; top: -225px;"> <p>HellHeim Pinball is a cabinet arcade style game<br> 
-    created in Unity as a student project over a 1 month <br> production cycle (My contributions to this project,<br> 
-    I handled all the Gameplay programming)</p> </div> 
+    <div class="image-container">
+        <div class="project-image">
+          <p class="project-name"> <a style="text-decoration: none; color: #f8f9f8;" rel="Click here" href="https://skylineshredder.itch.io/skyline-shredder" target="_blank" onmouseover="this.style.color='#233f57'" onmouseout="this.style.color='#f8f9f8'" a href="https://skylineshredder.itch.io/skyline-shredder" target="_blank" > Skyline Shredder </p>
+            <img src="https://img.itch.zone/aW1nLzEyNDE0NzExLnBuZw==/original/M7%2BBDh.png" width="600" height="300">
+          </a>
+          <p class="project-description">Skyline Shredder is a third-person  platformer <br> mixed with parkour, grinding, and grappling <br> 
+            created in UE4 as a student project over a <br> 6 month production cycle
+            (My contributions <br> to this project, I programmed the swinging and UI).
+        </div>
+        
+        <div class="project-image">
+          <p class="project-name"> <a style="text-decoration: none; color: #f8f9f8;" rel="Click here" href="https://skylineshredder.itch.io/skyline-shredder" target="_blank" onmouseover="this.style.color='#233f57'" onmouseout="this.style.color='#f8f9f8'" a href="https://skylineshredder.itch.io/skyline-shredder" target="_blank" > HellHeim Pinball </p>
+          <a href="https://bananapeeljerry.itch.io/hellheim-pinball" target="_blank">
+            <img src="https://img.itch.zone/aW1nLzkyMTk1NjcucG5n/original/NnUkfV.png" width="600" height="300">
+          </a>
+          <p class="project-description">HellHeim Pinball is a cabinet arcade style game<br> 
+            created in Unity as a student project over a 1 month <br> production cycle (My contributions to this project,<br> 
+            I handled all the Gameplay programming)</p> 
+        </div>
+      </div>
+    
 </font>
 </body>
 
